@@ -28,7 +28,7 @@
 import Alamofire
 import AlamofireObjectMapper
 
-public class CDYelpAPIClient: NSObject {
+@objc public class CDYelpAPIClient: NSObject {
     
     private let apiKey: String!
     private lazy var manager: Alamofire.SessionManager = {
